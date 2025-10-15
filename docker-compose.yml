@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  meeting-assistant:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - QIANFAN_ACCESS_KEY=${QIANFAN_ACCESS_KEY}
+      - QIANFAN_SECRET_KEY=${QIANFAN_SECRET_KEY}
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DEFAULT_MODEL=ERNIE-4.0-8K
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    container_name: meeting-assistant
+
