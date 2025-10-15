@@ -18,6 +18,15 @@
   - DeepSeek API (通过OpenAI接口)
 - Python 3.8+
 
+## 📚 项目文档
+
+本项目提供完整的技术文档，遵循 Kiro-Workflow 规范：
+
+- 📋 [需求文档](doc/01-requirements.md) - 功能需求、非功能需求、接口规范
+- 🏗️ [架构设计文档](doc/02-architecture.md) - 系统架构、技术选型、模块设计
+- 📅 [任务规划文档](doc/03-task-planning.md) - 任务分解、里程碑计划、资源规划
+- 📖 [文档导航](doc/README.md) - 文档索引和使用指南
+
 ## 快速开始
 
 > 💡 **提示**: 详细的快速开始指南请查看 [QUICKSTART.md](QUICKSTART.md)
